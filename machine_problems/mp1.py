@@ -5,8 +5,7 @@
 # Prince Awuah Karikari
 #
 # Description: This script prompts the user for their name, job, annual salary,
-# and monthly rent. A greeting is printed, along with the name offile:///home/princekk122/OOP-Labs
-
+# and monthly rent. A greeting is printed, along with the name
 # the job. The annual salary, monthly salary, take home pay, and
 # monthly spending money calculation are displayed. The
 # calculations require only 1 assumption - that take home pay
