@@ -1,0 +1,49 @@
+❯ python3 machine_problems/mp3.py
+
+MATH PRACTICE PROBLEMS
+
+Add, Subtract, or Multiply the numbers together.
+I'll tell you if you are right or wrong.
+
+Problem 1: 1 + 12 = 13
+You are right!
+
+So far... 1 right, 0 wrong.
+
+Do you want to perform another problem? ('Y' or 'N') y
+
+Problem 2: 13 * 19 = 137
+Sorry, that is not correct. The correct answer is 247
+
+So far... 1 right, 1 wrong.
+
+Do you want to perform another problem? ('Y' or 'N') Y  
+
+Problem 3: 9 * 12 = 108
+You are right!
+
+So far... 2 right, 1 wrong.
+
+Do you want to perform another problem? ('Y' or 'N') Yes
+
+Problem 4: 11 - 17 = -6 
+You are right!
+
+So far... 3 right, 1 wrong.
+
+Do you want to perform another problem? ('Y' or 'N') yes
+
+Problem 5: 18 + 13 = 31
+You are right!
+
+So far... 4 right, 1 wrong.
+
+Do you want to perform another problem? ('Y' or 'N') YES
+
+Problem 6: 8 * 16 = 138
+Sorry, that is not correct. The correct answer is 128
+
+So far... 4 right, 2 wrong.
+
+Do you want to perform another problem? ('Y' or 'N') n
+

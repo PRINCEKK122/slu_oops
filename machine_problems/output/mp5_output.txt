@@ -1,0 +1,133 @@
+Python 3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+
+========== RESTART: /home/princekk122/OOP-Labs/machine_problems/mp5.py =========
+Student: RS438 Rohit Sharma
+Test Scores: 45 75 81 
+Test Average: 67.00
+
+Student: VK123 Virat Kohli
+Test Scores: 81 87 93 81 98 
+Test Average: 88.00
+
+Student: JB892 Jasprit Bumrah
+Test Scores: 93 72 
+Test Average: 82.50
+
+Student: RJ901 Ravindra Jadeja
+Test Scores: 65 
+Test Average: 65.00
+
+Student: RA457 Ravichandran Ashwin
+Test Scores: 76 100 92 
+Test Average: 89.33
+
+Student: MS239 Mohammed Shami
+Test Scores: 81 74 97 85 
+Test Average: 84.25
+
+Student: MS101 Mohammed Siraj
+Test Scores: 100 
+Test Average: 100.00
+
+Student: KR560 KL Rahul
+Test Scores: 
+Test Average: 0.00
+
+Student: SG492 Shubman Gill
+Test Scores: 81 72 
+Test Average: 76.50
+
+Student: HP100 Hardik Pandya
+Test Scores: 84 95 77 65 
+Test Average: 80.25
+
+You may update any student info, or add a student.
+
+Enter Student ID (<enter to stop>): PK191
+This student does not exist. You may enter the info now.
+First Name: Prince
+Last Name: Karikari
+Enter a Test Score (<enter> to stop): 77
+Enter a Test Score (<enter> to stop): 88
+Enter a Test Score (<enter> to stop): 78
+Enter a Test Score (<enter> to stop): 
+
+New Student Added:
+Student: PK191 Prince Karikari
+Test Scores: 77 88 78 
+Test Average: 81.00
+
+Enter Student ID (<enter to stop>): MJ555
+This student does not exist. You may enter the info now.
+First Name: Mary
+Last Name: Jackson
+Enter a Test Score (<enter> to stop): 78
+Enter a Test Score (<enter> to stop): 98
+Enter a Test Score (<enter> to stop): 54
+Enter a Test Score (<enter> to stop): 
+
+New Student Added:
+Student: MJ555 Mary Jackson
+Test Scores: 78 98 54 
+Test Average: 76.67
+
+Enter Student ID (<enter to stop>): PK191
+Student: PK191 Prince Karikari
+Test Scores: 77 88 78 
+Test Average: 81.00
+
+(1) Change the Name
+(2) Add a Test
+
+What would you like to do? (<enter> to stop): 1
+Enter first name: Patrick
+Enter last name: Kankam
+
+Student: PK191 Patrick Kankam
+Test Scores: 77 88 78 
+Test Average: 81.00
+
+Enter Student ID (<enter to stop>): PK191
+Student: PK191 Patrick Kankam
+Test Scores: 77 88 78 
+Test Average: 81.00
+
+(1) Change the Name
+(2) Add a Test
+
+What would you like to do? (<enter> to stop): 2
+Enter a Test Score (<enter> to stop): 90
+Enter a Test Score (<enter> to stop): 
+
+Student: PK191 Patrick Kankam
+Test Scores: 77 88 78 90 
+Test Average: 83.25
+
+Enter Student ID (<enter to stop>): JB892
+Student: JB892 Jasprit Bumrah
+Test Scores: 93 72 
+Test Average: 82.50
+
+(1) Change the Name
+(2) Add a Test
+
+What would you like to do? (<enter> to stop): 
+
+Enter Student ID (<enter to stop>): MS101
+Student: MS101 Mohammed Siraj
+Test Scores: 100 
+Test Average: 100.00
+
+(1) Change the Name
+(2) Add a Test
+
+What would you like to do? (<enter> to stop): 2
+Enter a Test Score (<enter> to stop): 97
+Enter a Test Score (<enter> to stop): 
+
+Student: MS101 Mohammed Siraj
+Test Scores: 100 97 
+Test Average: 98.50
+
+Enter Student ID (<enter to stop>): 

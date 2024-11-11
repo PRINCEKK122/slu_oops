@@ -1,68 +1,143 @@
-import array
+# person = "Usain Bolt"
+# distance = 100
+# time = 9.5852569
 
-# 9th September, 2024
-# for number in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]:
-#     print(number)
+# print(f"{person} ran {distance} meters in {time:1.2f} seconds.")
+# myFile = None
+# while not myFile:
+#     fileName = input('What is the filename: ')
+#     try:
+#         myFile = open(fileName)
+#         print(myFile.readlines())
+#         myFile.close()
+#     except OSError:
+#         print(f'Sorry. Unable to open file {fileName}')
 
-# myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-# for number in myList:
-#     print(number)
+# filename = input("What is the filename? ")
+# with open(filename, 'x') as source:
+#     text = source.read()
+#     numchars = len(text)
+#     numwords = len(text.split())
+#     numlines = len(text.split('\n'))
 
-# sum = 0
-# for number in myList:
-#     sum += number
+# print(numlines, numwords, numchars)
 
-# print(sum)
+# print("Mon", "Tue", "Wed", "Thu", "Fri", sep="-", end=":")
 
-# name = 'Karikari'
-# for letter in name:
-#     print(letter)
+# print("My teacher", teacherName, "gave me a", testScore, "on the test.")
+# print("My total class grade is now", str(totalAverage + "."))
+# fileName = open("resume.txt")
 
-# groceries = ["milk", "eggs", "bread", "ham"]
-# count = 0
-# for item in groceries:
-#     count += 1
-#     print(str(count) + ". " + item)
+# for line in fileName:
+#     print(line.rstrip())
 
-# for k, item in enumerate(groceries):
-#     print(str(k + 1) + ". " + item)
+# fileName.close()
 
-# for i, letter in enumerate(name):
-#     print("Index " + str(i) + ": " + letter)
 
-# guests = ["Carol", "Alice", "Bob"]
-# for person in guests:
-#     person = person.lower()
+# primes = {2, 3, 5, 7}
+# evens = {2, 4, 6, 8}
+# primes.add(11)
+# print(primes)
+# evens.discard(8)
+# print("Evens", evens)
 
-# for i, person in enumerate(guests):
-#     guests[i] = person.lower()
+# print(primes ^ (evens))
 
-# print(guests)
+# person = {"name": "Prince", "age": 32}
+# person["name"][0] = "z"
+# print({i * i * i: i for i in range(1, 101)})
 
-uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-lowercase = "abcdefghijklmnopqrstuvwxyz"
+# with open("loremipsum.txt") as source:
+#     numlines = numwords = numchars = 0
+#     line = source.readline()
 
-uppers = tuple(uppercase)
-lowers = tuple(lowercase)
+#     while line:
+#         numchars += len(line)
+#         numwords += len(line.split())
+#         numlines += 1
 
-for i in range(11):
-    for j in range(11):
-        print(i + j, end = "\t")
-    print()
+#         # done with the current line, read the next line
+#         line = source.readline()
 
-for i in range(len(uppers)):
-    print(str(i + 1) + " " + lowers[i] + " " + uppers[i])
+# print(numlines, numwords, numchars)
 
-prime_numbers = []
-for number in range(2, 100):
-    is_prime = True
-    for num in range(2, number):
-        if (number % num == 0):
-            is_prime = False
-            break
 
-    if (is_prime):
-        prime_numbers.append(number)
+class Student:
+    def __init__(self, name):
+        self._name = name
+        self._testScores = []
 
-print(prime_numbers)
-   
+    def testAvg(self):
+        if len(self._testScores) == 0:
+            return None
+        return sum(self._testScores) / len(self._testScores)
+
+    def addTest(self, score):
+        self._testScores.append(score)
+
+    def __str__(self):
+        return f"{self._name} {self._testScores}"
+
+
+# roster = []
+
+# name = input("Enter your name: ")
+# while name:
+#     student = Student(name)
+#     testScores = input("Enter your scores: ")
+
+#     for num in testScores.split():
+#         student.addTest(int(num))
+#     roster.append(student)
+#     name = input("Enter your name: ")
+
+# for student in roster:
+#     print(student)
+
+
+def print_rangoli(size):
+    # alphabets = [chr(i) for i in range(97, 123)]
+    # indices = [i for i in range(size)]
+    # combined = indices + indices[:-1][::-1]
+    # idx = 0
+
+    # for i in range(size):
+    #     combined[idx] = alphabets[i]
+    #     idx += 1
+
+    # for i in range(size - 2, -1, -1):
+    #     combined[idx] = alphabets[i]
+    #     idx += 1
+
+    # print("-".join(combined))
+    alphabets = [chr(i) for i in range(97, 123)]
+    alphabets = alphabets[:size]
+    indices = list(range(size))
+    indices = indices[:-1] + indices[::-1]
+
+    for i in indices:
+        start_idx = i + 1
+        original = alphabets[-start_idx:]
+        reverse = original[::-1]
+        row = reverse + original[1:]
+        width = 4 * size - 3
+        print("-".join(row).center(width, "-"))
+
+
+def doSomething(x, y):
+    x = [2, 3]
+    y[0] = 1
+
+x = [1, -1]
+y = [2, 4]
+doSomething(x, y)
+print(">>>>", x[0], x[1], y[0])
+
+def reverseOrder(nums):
+    if len(nums) > 0:
+        print(nums[-1], end=" ")
+        nums.pop()
+        reverseOrder(nums)
+
+
+reverseOrder([1, 2, 3, 4, 5])

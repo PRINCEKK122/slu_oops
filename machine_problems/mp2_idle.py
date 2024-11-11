@@ -5,9 +5,8 @@
 #
 # Description: This script prints random 100 integers
 # from the range of 1 to 1000 and prints them in a
-# 10 x 10 grid together with stats such as min, max
-# and the average
-#
+# 10 x 10 grid.
+
 from random import randint
 
 for _ in range(3):

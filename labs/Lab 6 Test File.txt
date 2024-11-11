@@ -1,0 +1,8 @@
+This is a sample text file for practice.
+It contains several lines of text to demonstrate how file reading works.
+Students can use this file to count vowels, consonants, and non-letter characters.
+You can also count how many lines are present in the file.
+Make sure to test the program.
+Some lines may have punctuation, such as commas, periods, and question marks?
+There is a bonus or optional task to count number of words.
+Finally, this is the eighth line of text.

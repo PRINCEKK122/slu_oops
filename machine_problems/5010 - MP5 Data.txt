@@ -1,0 +1,10 @@
+RS438 Rohit Sharma 45 75 81
+VK123 Virat Kohli 81 87 93 81 98
+JB892 Jasprit Bumrah 93 72
+RJ901 Ravindra Jadeja 65
+RA457 Ravichandran Ashwin 76 100 92
+MS239 Mohammed Shami 81 74 97 85
+MS101 Mohammed Siraj 100
+KR560 KL Rahul
+SG492 Shubman Gill 81 72
+HP100 Hardik Pandya 84 95 77 65
